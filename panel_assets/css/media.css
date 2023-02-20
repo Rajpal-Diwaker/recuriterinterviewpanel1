@@ -1,0 +1,353 @@
+@media only screen and (max-width: 1200px) {
+.container{
+	width:auto;
+	padding:0;
+}
+}
+@media only screen and (max-width: 1170px) {
+.side-nav{
+	width:180px;
+}
+.side-nav > li > a{
+	width:180px;
+}
+.side-nav .navbar-nav > li > a{
+	width:100%;
+}
+.pageContent{
+	margin-left:180px;
+	padding:20px;
+}
+}
+@media only screen and (max-width: 1024px) {
+.pageContent{
+	margin-left:0;
+	border-left: 0px solid #e5e5e5
+}
+.navicon{
+	display:block;
+}
+html.sidePanel {
+	overflow: hidden;
+}
+.side-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	z-index: 99997;
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+html.sidePanel .side-nav {
+	width: 225px;
+}
+.side-nav .overlay {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 99998;
+	background: #000;
+	opacity: 0;
+}
+.side-nav .menuBox {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 225px;
+	height: 100%;
+	background: #fff;
+	z-index: 99999;
+	left: -225px;
+	max-height:100%;
+	overflow:hidden;
+	overflow-y:auto;
+}
+.side-nav .menuBox .closebtn {
+	position:relative;
+	top:-6px;
+	font-size:40px;
+	line-height:46px;
+	color:#ffae3d;
+	display:inline-block;
+	margin-right:20px;
+	margin-left:25px;
+	cursor:pointer;
+}
+.side-nav .overlay, .side-nav .menuBox {
+	-webkit-transition: all 400ms linear;
+	-moz-transition: all 400ms linear;
+	-o-transition: all 400ms linear;
+	-ms-transition: all 400ms linear;
+	transition: all 400ms linear;
+}
+html.sidePanel .side-nav .overlay {
+	opacity: 0.8;
+	transition: opacity 500ms ease-in-out 0s;
+}
+html.sidePanel .side-nav .menuBox {
+	left: 0px;
+}
+.pageContent{
+	min-height:inherit;
+}
+.pagetitlerow.classesdetails .form-control{
+	letter-spacing:inherit;
+}
+}
+@media only screen and (max-width: 1023px) {
+.filterrow .rtbtnbx.newline{
+	position:relative;
+	top:auto;
+	right:auto;
+	text-align:right;
+}
+.pagetitlerow.classesdetails .wdzero{
+	padding:15px;
+}
+.filterrow.cometitionbtn .rtbtnbx{
+	position: relative;
+    top: auto;
+    right: auto;
+    text-align: right;
+}
+}
+
+@media only screen and (max-width: 767px) {
+	
+.navbar-nav{
+	margin:0;
+}
+.eqWrap{
+	display:block;
+	margin-bottom:0;
+}
+.useracqusition{
+	margin-bottom:20px;
+}
+.navbar-brand{
+	display:none;
+}
+.british-school-logo{
+	display:none;
+}
+.navbar .navbar-header {
+	width:auto;
+	background:transparent;
+	float:left;
+}
+.navicon-right {
+    padding: 6px 3px;
+    width: calc(100% - 50px);
+}
+.navicon-right .searchbox{
+	width:175px;
+}
+.navicon-right .searchbox .fa {
+    font-size: 15px;
+    top: 8px;
+}
+.pageContent.innerpg{
+	padding:0;
+}
+.navbar .nav > li{
+	padding:0;
+}
+.navbar .nav > li > a .fa{
+	font-size:17px;
+}
+.nav > li > a > img {
+    max-width: none;
+    width: 25px;
+    height: 25px;
+}
+.top-nav{
+	float:right;
+}
+.authorstitlerw .padzero{
+	padding:0 15px;
+}
+.authorstitlerw .useracqusition{
+	margin:0 15px;
+	margin-bottom:20px;
+}
+.marzero{
+	margin:0 -15px;
+}
+.topreviewsSection{
+	margin:0;
+}
+.studentreadingbx,.bookswihlistwrap{
+	margin-top:20px;
+}
+.studentreadingbx .wd29{
+	width:auto;
+}
+.mostread_margin0{
+	margin:0 !important;
+}
+.studentreadingbx .wd29 h4,.wdzero h4{
+	text-align:center;
+}
+.center_text{
+	text-align:center;
+}
+.innersubheader,.tablesection{
+	padding:15px;
+}
+.pagetitlerow .searchrw{
+	margin-bottom:10px;
+}
+.filterrow .rtbtnbx{
+	position:relative;
+	top:auto;
+	right:auto;
+	text-align:right;
+}
+.filterrow .rtbtnbx .btn-primary.filterbtn{
+	display:inline-block;
+}
+.filterrow .filter_text{
+	display:block;
+	margin-bottom:8px;
+}
+.filterrow .selectoptionrow{
+	display:block;
+	margin:0;
+	margin-bottom:10px;
+	border:1px solid #ddd;
+	border-radius:4px;
+}
+.filterrow .bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+	width:100%;
+}
+.wishlistdetailsbx,.bookreviewContent{
+	padding-left:0;
+}
+.top-nav > .open > .dropdown-menu{
+	left:auto;
+	right:-120px;
+}
+.filterrow .rtbtnbx.newline .btn-primary.filterbtn{
+	margin-bottom:10px;
+}
+.pagetitlerow .rtbtnbx{
+	top:20px;
+}
+.pagetitlerow.classesdetails .rtbtnbx{
+	position:relative;
+	top:auto;
+	left:auto;
+}
+.pagetitlerow.classesdetails .btn-primary.filterbtn{
+	margin-bottom:8px;
+}
+.pagetitlerow.classesdetails .uploadim{
+	top:-3px;
+	margin-bottom:8px;
+}
+.pdrtwd{
+	padding-right:15px;
+}
+.tableclear{
+	display:block;
+}
+.pagetitlerow .wd14{
+	width:33.33%
+}
+.printqrcode{
+	max-width:inherit;
+	margin:15px;
+}
+.pagetitlerow.qr .rtbtnbx{
+	top:0;
+}
+.pagetitlerow.createClL .rtbtnbx{
+	top:0;
+	right:0;
+}
+.pagetitlerow.fam-details .rtbtnbx{
+	top:-6px;
+	right:0;
+}
+.pagetitlerow .rtbtnbx.communityeditpost{
+	position:relative;
+	left:auto;
+	top:auto;
+	text-align:right;
+}
+#movestudentClass .modal-dialog{
+	width:auto;
+}
+.pagetitlerow.families h5.minheight{
+	min-height:inherit;
+}
+.inviteteacherbx.edit_family{
+	margin:10px 0px;
+	padding:10px;
+}
+.inviteteacherbx.edit_family .btn-primary.filterbtn{
+	padding:7px 8px;
+}
+.inviteteacherbx.edit_family .btn-primary.filterbtn:first-child{
+	margin-left:0;
+}
+h4.wards{
+	margin-top:30px;
+}
+.invideadminformwr{
+	margin-bottom:35px;
+}
+.pdrt{
+	padding-right:0;
+}
+.pdlt{
+	padding-left:0;
+}
+.filterrow.cometitionbtn .rtbtnbx .btn-primary.filterbtn{
+	padding:7px;
+	margin-top:5px;
+}
+.quizsubheader .pagetitlerow .rtbtnbx{
+	position:relative;
+	float:none;
+}
+.quizsubheader .btn-primary.filterbtn{
+	display:block;
+	margin:10px;	
+}
+
+.quiztablewrap .filterrow .selectoptionrow {
+    margin-bottom: 5px;
+}
+.quiztablewrap .filterrow .bootstrap-select.btn-group .btn .caret{
+	right:5px;
+}
+}
+
+@media only screen and (max-width: 359px) {
+.pageContent{
+	padding:15px;
+}
+.pagetitlerow .rtbtnbx{
+	top:27px;
+	right:-5px;
+}
+.pagetitlerow.createCl .rtbtnbx{
+	top:0;
+	right:0;
+}
+.pagetitlerow.classesdetails .rtbtnbx{
+	right:auto;
+}
+.pagetitlerow .rtbtnbx .btn-primary.filterbtn{
+	margin-left:5px;
+}
+.pdlt .btn-primary.filterbtn{
+	padding:7px;
+}
+}
